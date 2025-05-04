@@ -1,0 +1,107 @@
+/* Базовые стили */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.page-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #222;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* Секции */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
+
+.text-block {
+  flex: 1 1 500px;
+  max-width: 900px;
+}
+
+.image-block {
+  flex: 0 1 300px;
+  max-width: 350px;
+  margin-left: 50px;
+}
+
+.image-block img,
+.image-center img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.image-center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Цветовые блоки */
+.gray-box {
+  background-color: #f1f1f1;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.green-box {
+  background-color: #e7f9ec;
+  padding: 15px 20px;
+  border-left: 6px solid #4CAF50;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Пунктирная рамка */
+.connection-bordered {
+  padding: 20px;
+  border: 2px dashed #f44336;
+  border-radius: 12px;
+  background-color: #fffbea;
+  margin-bottom: 30px;
+}
+
+/* Списки */
+ol, ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+ol li,
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Блок подключения (широкий) */
+.connect-block {
+  margin-bottom: 60px;
+}
+
+.full-width-text {
+  width: 100%;
+  max-width: none;
+}

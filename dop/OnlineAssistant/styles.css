@@ -1,0 +1,169 @@
+/* Общие стили */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.page-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #222;
+  font-weight: bold;
+  text-align: center;
+}
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* Первый блок: Кто такой Онлайн-помощник */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
+
+.text-block {
+  flex: 1 1 500px;
+  max-width: 800px;
+}
+
+.image-block {
+  flex: 0 1 300px;
+  max-width: 350px;
+  margin-top: 65px;
+  margin-left: 55px;
+}
+
+.image-block img,
+.image-center img {
+  width: 100%;
+  height: 510px;
+  border-radius: 12px;
+}
+
+/* Цветные блоки */
+.gray-box {
+  background-color: #f1f1f1;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.green-box {
+  background-color: #e7f9ec;
+  padding: 15px 20px;
+  border-left: 6px solid #4CAF50;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.red-box {
+  background-color: #fdeaea;
+  padding: 15px 20px;
+  border-left: 6px solid #ED1C24;
+  border-radius: 8px;
+}
+
+/* Блок "Как подключиться" */
+.connect-block {
+  margin-bottom: 60px;
+}
+
+.full-width-text {
+  width: 100%;
+  max-width: none;
+}
+
+.full-width-text ol {
+  padding-left: 20px;
+}
+
+.image-center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.image-center img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Кнопка PDF */
+
+.details-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #FFDD00;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+  background-color: #e6c200;
+}
+
+/* Список курсов */
+.courses-block {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-left: 6px solid #FFDD00;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.course-summary {
+  font-weight: 600;
+  color: #ED1C24;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.course-list {
+  margin-top: 15px;
+  padding-left: 20px;
+  list-style-type: disc;
+  line-height: 1.6;
+}
+
+.course-list li {
+  margin-bottom: 8px;
+}
+
+.course-list a {
+  color: #0044cc;
+  text-decoration: none;
+}
+
+.course-list a:hover {
+  text-decoration: underline;
+}
+.connection-bordered {
+  padding: 20px;
+  border: 2px dashed #f44336;
+  border-radius: 12px;
+  background-color: #fffbea;
+  margin-bottom: 30px;
+}
+
+
